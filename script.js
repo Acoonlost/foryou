@@ -11,7 +11,7 @@ document.getElementById("respostaForm").addEventListener("submit", function(even
 });
 
 function enviarRespostaParaGitHub(resposta) {
-    var token = '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'; // Substitua pelo seu token de acesso pessoal
+    var token = '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'; // Substitua pelo seu token de acesso pessoal
     var owner = 'Acoonlost'; // Substitua pelo seu nome de usuário do GitHub
     var repo = 'foryou'; // Substitua pelo nome do seu repositório
     var path = 'resposta.txt'; // Substitua pelo caminho do arquivo onde deseja armazenar a resposta
